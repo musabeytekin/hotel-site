@@ -1,1 +1,1 @@
-<img src="https://github.com/musabeytekin/images/blob/main/view/deluxe-hotel-1.png" alt="Delıxe-Hotel" style="width:700px">
+<img src="https://github.com/musabeytekin/images/blob/main/view/deluxe-hotel-1.png" alt="Deluxe-Hotel" style="width:700px">
