@@ -23,12 +23,12 @@
 /* background colors */
 .bg-primary{ background-color: var(--primary); }
 .bg-secondary{ background-color: var(--secondary); }
-.bg-success{ background-color: var(--primary); }
-.bg-danger{ background-color: var(--primary); }
-.bg-warning{ background-color: var(--primary); }
-.bg-info{ background-color: var(--primary); }
-.bg-dark{ background-color: var(--primary); }
-.bg-light{ background-color: var(--primary); }
+.bg-success{ background-color: var(--success); }
+.bg-danger{ background-color: var(--danger); }
+.bg-warning{ background-color: var(--warning); }
+.bg-info{ background-color: var(--info); }
+.bg-dark{ background-color: var(--dark); }
+.bg-light{ background-color: var(--light); }
 
 /* buttons */
 
@@ -86,3 +86,17 @@
    color: var(--white);
 }
 
+/* flex items */
+
+.flex-items {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+}
+
+.flex-items > div {
+    padding: 2rem;
+    flex-basis: 100%;
+}
