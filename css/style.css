@@ -30,7 +30,7 @@ a {
 
 h1,h2 {
     font-weight: 300;
-    /* line-height: 1.2; */
+    line-height: 1.2;
 
 }
 
@@ -45,4 +45,45 @@ img {
 
 .text-center {
     text-align: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--dark);
+    color: #fff;
+    opacity: 0.8;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 5.8rem;
+    padding: 0 3rem;
+}
+
+.navbar ul{
+    display: flex;
+
+}
+
+.navbar a{
+    color: #fff;
+    padding: 1rem 2rem;
+    margin: 0 .5rem;
+}
+
+.navbar a:hover {
+    border-bottom: 2px solid var(--warning);
+}
+
+.navbar .brand {
+    font-weight: 400;
+}
+
+.navbar h1 {
+    font-size: 3rem;
+}
+
+.navbar span {
+    color: var(--warning);
 }
