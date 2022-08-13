@@ -256,3 +256,23 @@ img {
     margin-right: 1rem;
 }
 
+/* mobile */
+
+@media (max-width: 768px) {
+    html {
+        font-size: 8px;
+
+    }
+
+    .navbar {
+        flex-direction: column;
+        height: 10rem;
+        justify-content: space-around;
+        /* padding: 2rem; */
+    }
+
+    .navbar a {
+        padding: 1.2rem;
+        margin: 0 3px;
+    }
+}
