@@ -8,6 +8,7 @@
 }
 
 html {
+    scroll-behavior: smooth;
     font-size: 10px;
 }
 
@@ -101,6 +102,10 @@ img {
     color: #fff;
     position: relative;    
 
+}
+.main-header.blog {
+    background-image: url(../img/bg-2.jpeg);
+    height: 50vh;
 }
 
 .main-header .content {
@@ -233,6 +238,16 @@ img {
     font-size: 4rem;
 }
 
+/* articles */
+
+.articles {
+    padding: 4rem;
+}
+
+.articles .article {
+    margin-top: 1.5rem;
+    color: #fff;
+}
 /* footer */
 
 .footer {
