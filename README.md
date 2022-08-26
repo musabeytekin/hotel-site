@@ -1,4 +1,4 @@
-## Awesome Blog 
+## Deluxe Hotel Site
 
 İncelemek için:
 <br>
